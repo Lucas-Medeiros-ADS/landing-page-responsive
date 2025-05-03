@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caminho da Fé - Semana Santa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+        }
+        header, footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background-color: #fff;
+        }
+        h2 {
+            color: #343a40;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            padding: 8px 0;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        button {
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            margin-top: 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="imagem-topo">
+        <img src="caminho-da-fe.jpg" alt="Imagem Caminho da Fé" style="width: 100%; max-height: 500px; object-fit: cover;">
+    </section>
+
+    <header>
+        <h1>Projeto Caminho da Fé</h1>
+        <p>Paróquia Nossa Senhora de Fátima – Patos/PB</p>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Evento</h2>
+            <p>Levar a Palavra de Deus aos corações é uma missão que se renova a cada Semana Santa. 
+                O projeto <strong>Caminho da Fé</strong> busca unir fé e tecnologia, alcançando mais pessoas por meio de ações simples, 
+                como a partilha de mensagens, orações, palavras de conforto e a distribuição gratuita de livros digitais com reflexões cristãs.</p>
+
+        </section>
+
+        <section id="informacoes">
+            <h2>Informações Importantes</h2>
+            <ul>
+                <li><strong>Data:</strong> 12 a 19 de abril de 2025</li>
+                <li><strong>Horário:</strong> 19h30</li>
+                <li><strong>Local:</strong> 
+                    <a href="https://www.google.com/maps/place/Par%C3%B3quia+Nossa+Senhora+de+F%C3%A1tima/@-7.0176861,-37.2853228,18z/data=!4m9!1m2!2m1!1srua+jo%C3%A3o+cosme+de+brito+patos+pb!3m5!1s0x7af6024d3d90adb:0x50bd75cb1302e98!8m2!3d-7.0176861!4d-37.2837296!16s%2Fg%2F1tsr3dyj?entry=ttu" 
+                       target="_blank">
+                        Paróquia Nossa Senhora de Fátima – Patos/PB
+                    </a>
+                </li>
+                <li><strong>Livro:</strong> Gratuito e disponível para download!</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco pelo WhatsApp: 
+                <a href="https://api.whatsapp.com/send?phone=5583998140379&text=Olá%20gostaria%20de%20saber%20mais%20sobre%20o%20evento%20Caminho%20da%20Fé" 
+                   target="_blank">Clique aqui</a>
+            </p>
+        </section>
+
+        <button onclick="baixarLivro()">Baixar Livro Digital</button>
+    </main>
+
+    <script>
+        function baixarLivro() {
+            alert("Obrigado por se interessar! O livro será aberto em uma nova aba.");
+            window.open('https://drive.google.com/file/d/1jB__0xOIrxiobZY6YRSotw-3qaDbW8w3/view?usp=sharing', '_blank');
+        }
+    </script>
+
+    <footer>
+        <p>&copy; 2025 Projeto Caminho da Fé - Paróquia Nossa Senhora de Fátima. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
